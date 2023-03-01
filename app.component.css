@@ -1,0 +1,89 @@
+
+
+
+
+.calculator {
+    font-size: 20px;
+    position: relative;
+    left:40vw;
+    top:10vw;
+height: 21vw;
+width: 16vw;
+background-color: black;
+border :solid 1vw;
+border-color: rgb(177, 177, 177);
+border-radius: 3px;
+
+}
+
+
+
+
+ 
+
+.display{
+    position: relative;
+    left: 1vw;
+    width: 14vw;
+    height: 5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    
+    background-color: white;
+    text-align: right;
+}
+.displayTop{
+position: relative;
+top: 0.5vw;
+left: 0.5vw;
+width: 13vw;
+height: 2vw;
+
+
+}
+
+
+.displayBottom{
+    position: relative;
+    top: 0.75vw;
+    left: 0.5vw;
+    width: 13vw;
+    height: 2vw;
+   
+    
+}
+
+.buttonKasten{
+width: 14vw;
+height: 13vw;
+
+margin-left: 1vw;
+}
+
+.loeschen{
+width: 7vw;
+background-color: rgba(73, 73, 73, 0.938);
+
+}
+
+button.operator{
+    background-color: grey;
+}
+button {
+    background-color: rgb(0, 109, 252);
+    width: 3.5vw;
+    height: 2.6vw;
+    border:solid 0.15vw ;
+    transition-duration: 0.2s;
+    font-size: 20px;
+    Font-weight:bold
+
+}
+button:hover{
+
+background-color: rgb(0, 174, 255);
+}
+
+.result{
+    background-color: grey;  
+}
